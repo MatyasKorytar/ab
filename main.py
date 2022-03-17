@@ -2,7 +2,7 @@ RunComp.set_light_level()
 radio.set_group(24)
 cas = control.millis()
 def on_received_number():
-        cas
+       cas
 radio.on_received_number(on_received_number)
 
 def on_light_drop():
